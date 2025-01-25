@@ -1,0 +1,27 @@
+.navbar {
+  background-color: var(--void-black);
+  padding: 1rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  color: var(--moonlit-gray);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: var(--bioluminescent-teal);
+}
+
+.navLink:active {
+  color: var(--stellar-gold);
+}

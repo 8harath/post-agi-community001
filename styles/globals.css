@@ -1,0 +1,65 @@
+/* Global Styles */
+
+:root {
+  --void-black: #0A0A0A;
+  --astral-indigo: #1A1F3D;
+  --bioluminescent-teal: #00C9A7;
+  --stellar-gold: #D4AF37;
+  --moonlit-gray: #E0E0E0;
+  --eclipse-charcoal: #2D2D2D;
+
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--void-black);
+  color: var(--moonlit-gray);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--astral-indigo);
+}
+
+a {
+  color: var(--bioluminescent-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--stellar-gold);
+}
+
+button {
+  font-family: var(--font-body);
+  background-color: var(--bioluminescent-teal);
+  color: var(--void-black);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--stellar-gold);
+}
+
+input, textarea {
+  font-family: var(--font-body);
+  background-color: var(--eclipse-charcoal);
+  color: var(--moonlit-gray);
+  border: 1px solid var(--moonlit-gray);
+  padding: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--moonlit-gray);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--bioluminescent-teal);
+}
