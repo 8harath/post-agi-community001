@@ -1,2 +1,1 @@
-# post-agi-community001
-A dark-themed, community-driven webpage for post-AGI enthusiasts
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
